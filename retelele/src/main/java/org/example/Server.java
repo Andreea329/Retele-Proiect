@@ -8,7 +8,6 @@ import java.util.*;
 
 public class Server {
     private static final String DB_URL = "jdbc:sqlite:identifier.sqlite";
-
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(12345);

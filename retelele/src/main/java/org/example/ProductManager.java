@@ -5,7 +5,6 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ProductManager {
-
     private static final Map<String, Set<PrintWriter>> subscriptions = new ConcurrentHashMap<>();
 
     public static synchronized void subscribe(String productId, PrintWriter writer) {
