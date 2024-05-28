@@ -4,6 +4,7 @@ import java.io.*;
 import java.net.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+
 public class Client2 {
     public static void main(String[] args) {
         Socket socket = null;
